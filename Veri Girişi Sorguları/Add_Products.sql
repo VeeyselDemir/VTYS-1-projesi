@@ -1,4 +1,4 @@
-INSERT INTO Products (ProductID, RestaurantID, ProductName, Price, IsActive)
+INSERT INTO Products (RestaurantID, ProductName, Price, IsActive)
 VALUES
 (1, 'Adana Kebap', 350.00, 1),
 (1, 'Urfa Kebap', 340.00, 1),
