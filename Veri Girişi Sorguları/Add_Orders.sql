@@ -1,8 +1,5 @@
-INSERT INTO Orders (UserId, TotalAmount, OrderStatus, IsActive)
-VALUES (1, 400.00, 'Completed', 1);
-
-INSERT INTO OrderItems (OrderId, ProductId, Quantity, UnitPrice, IsDonation)
-VALUES (1, 4, 1, 200.00, 0);
-
-INSERT INTO OrderItems (OrderId, ProductId, Quantity, UnitPrice, IsDonation)
-VALUES (1, 5, 2, 100.00, 1);
+INSERT INTO Orders (OrderId, UserId, OrderDate, TotalAmount, OrderStatus, IsActive)
+VALUES
+(2, '2026-05-16 21:58:12.120', 400.00, 'Completed', 1),
+(3, '2026-05-16 22:32:45.273', 500.00, 'Completed', 1),
+(3, '2026-05-16 22:36:58.640', 500.00, 'Completed', 1);
