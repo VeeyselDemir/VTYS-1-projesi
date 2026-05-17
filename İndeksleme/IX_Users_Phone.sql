@@ -1,0 +1,2 @@
+CREATE UNIQUE NONCLUSTERED INDEX IX_Users_Phone 
+ON Users(Phone);
