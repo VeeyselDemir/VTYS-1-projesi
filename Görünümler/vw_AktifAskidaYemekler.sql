@@ -12,4 +12,4 @@ SELECT
 FROM DonationPool dp
 INNER JOIN Products p ON dp.ProductId = p.ProductID
 LEFT JOIN Users u ON dp.DonorUserId = u.UserID
-WHERE dp.PoolStatus = 'Active'; -- Durum kodunuza göre 'Bekliyor' vs. yapabilirsiniz.
+WHERE dp.PoolStatus = 'Active'; 
