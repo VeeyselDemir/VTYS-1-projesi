@@ -1,4 +1,4 @@
-INSERT INTO Users (UserID, FullName, Email, Phone, PasswordHash, UserType, IsVerified, IsActive)
+INSERT INTO Users (FullName, Email, Phone, PasswordHash, UserType, IsVerified, IsActive)
 VALUES
 ('Ahmet Yılmaz', 'ahmet@gmail.com', '05551234567', 'Sifre123', 'Musteri', 1, 1),
 ('Ayşe Kaya', 'ayse@gmail.com', '05329876543', 'Sifre456', 'Musteri', 1, 1),
